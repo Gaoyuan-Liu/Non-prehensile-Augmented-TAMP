@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot name="bin">
+  <link name="base_link">
+    <visual>
+      <geometry>
+		    <mesh filename="bin.obj"/>
+      </geometry>
+      <material name="wooden">
+        <color rgba="0.64 0.45 0.29 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+		    <mesh filename="bin.obj"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

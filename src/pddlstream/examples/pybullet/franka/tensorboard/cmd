@@ -1,0 +1,1 @@
+tensorboard --logdir ./first_run_1

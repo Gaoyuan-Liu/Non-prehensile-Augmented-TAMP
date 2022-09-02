@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="follow" pkg="panda_control" type="franka_following.py" respawn="false" output="screen"/>
+  
+
+
+
+</launch>
