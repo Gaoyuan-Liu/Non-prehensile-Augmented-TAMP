@@ -2,15 +2,10 @@
 
 The project is built on top of [PDDLStream](https://github.com/caelan/pddlstream).
 
-The original version only consider pr2 robot, here we extend the experiment to a Franka Panda robot.
+We add a Reinforcement Learning (RL) non-prehensile procedure to help previous PDDLStream create solvable situations.
 
 <img src="https://github.com/Gaoyuan-Liu/panda_tamp/blob/main/pics/unsolvable.png" width="200" />
 
-## Publications
-
-* [PDDLStream: Integrating Symbolic Planners and Blackbox Samplers via Optimistic Adaptive Planning](https://arxiv.org/abs/1802.08705
-)
-<!--* [STRIPStream: Planning In Infinite Domains](https://arxiv.org/abs/1701.00287)-->
 
 ## Install
 - Clone this repo:
