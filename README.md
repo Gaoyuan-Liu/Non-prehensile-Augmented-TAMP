@@ -4,7 +4,7 @@ The project is built on top of [PDDLStream](https://github.com/caelan/pddlstream
 
 We add a Reinforcement Learning (RL) non-prehensile procedure to help previous PDDLStream create solvable situations.
 
-<img src="https://github.com/Gaoyuan-Liu/panda_tamp/blob/main/pics/unsolvable.png" width="200" />
+<img src="https://github.com/Gaoyuan-Liu/Non-prehensile-Augmented-TAMP/blob/main/pics/unsolvable.png" width="200" />
 
 
 ## Install
