@@ -6,6 +6,8 @@ The proposed hybrid planning method is validated on a cluttered bin picking prob
 
 <img src="https://github.com/Gaoyuan-Liu/Non-prehensile-Augmented-TAMP/blob/main/pics/unsolvable.png" width="200" />
 
+## Video
+The method introduction and experiment videos can be found [HERE](https://youtu.be/0NF56RZ0H0c).
 
 ## Install
 - Clone this repo:
