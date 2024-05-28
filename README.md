@@ -13,10 +13,8 @@ The method introduction and experiments:
 
 
 ## Install
-- Clone this repo:
-  ```
-  git clone git@github.com:Gaoyuan-Liu/panda_tamp.git
-  ```
+- Clone this repo.
+
 - Complie DownwardFast:
   ```
   cd panda_tamp/src/pddlstream
