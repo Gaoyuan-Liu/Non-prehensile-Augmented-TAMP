@@ -25,27 +25,17 @@ The method introduction and experiments:
   ```
 - Compile IKFast:
   ```
-  cd panda_tamp/src/pddlstream/examples/pybullet/utils/
-
-  pybullet-planning$ (cd pybullet_tools/ikfast/franka_panda; python setup.py)
+  cd src/utils/pybullet_tools/ikfast/franka_panda
+  
+  python setup.py
   ```
 
 ## Run
-- Nvigate terminal to `src/panda_pddlstream`
-  ```
-  conda activate pddlstream
-  ```
+- Nvigate terminal to `src/pusher`
 
-- Run panda_pddl in pybullet:
+- Run TAMP solver demo in pybullet:
   ```
   python -m examples.pybullet.panda.run_pybullet -n 3 -v
-  ```
-
-- Run panda_pddl with Franka:
-  ```
-  roslaunch panda_control franka_following.launch 
-
-  python -m examples.pybullet.panda.run -n 3 -v
   ```
 
 ## Trainning
@@ -55,7 +45,11 @@ The method introduction and experiments:
   
   roslaunch panda_moveit_config demo.launch
   ```
-- Run trainning scripts, go to `src/pddlstream/examples/pybullet/panda`
+
+- Run trainning scripts, go to `src/pusher/`
+  ```
+  python train.py
+  ```
   
 
 ## ROS Interpretation

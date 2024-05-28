@@ -1,2 +1,0 @@
-franka_gripper:franka_moveit_config:gazebo-pkgs/gazebo_grasp_plugin:gazebo-pkgs/gazebo_state_plugins:gazebo-pkgs/gazebo_test_tools:gazebo-pkgs/gazebo_version_helpers:gazebo-pkgs/gazebo_world_plugin_loader:opencv_examples:panda_control:panda_description:pddlstream:rl_interface
--DCATKIN_WHITELIST_PACKAGES=franka_gripper -DCATKIN_DEVEL_PREFIX=/home/liu/panda_tamp/devel -DCMAKE_INSTALL_PREFIX=/home/liu/panda_tamp/install -G Unix Makefiles

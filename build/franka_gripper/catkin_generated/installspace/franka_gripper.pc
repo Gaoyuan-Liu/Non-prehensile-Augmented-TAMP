@@ -1,8 +1,0 @@
-prefix=/home/liu/panda_tamp/install
-
-Name: franka_gripper
-Description: Description of franka_gripper
-Version: 0.9.0
-Cflags: -I${prefix}/include -I/usr/include
-Libs: -L${prefix}/lib -lfranka_gripper /usr/lib/libfranka.so.0.8.0
-Requires: roscpp message_runtime control_msgs actionlib sensor_msgs xmlrpcpp actionlib_msgs
