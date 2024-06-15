@@ -17,7 +17,7 @@ The method introduction and experiments:
 
 - Complie DownwardFast:
   ```
-  cd panda_tamp/src/pddlstream
+  cd src/pddlstream
 
   ./downward/build.py
   ```
@@ -33,7 +33,9 @@ The method introduction and experiments:
 
 - Run TAMP solver demo in pybullet:
   ```
-  python -m examples.pybullet.panda.run_pybullet -n 3 -v
+  cd src/pusher
+
+  python run_pybullet -n 3 -v
   ```
 
 ## Trainning
@@ -48,3 +50,6 @@ The method introduction and experiments:
   ```
   python train.py
   ```
+
+## Contribution
+
