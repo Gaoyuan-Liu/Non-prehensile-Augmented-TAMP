@@ -15,6 +15,11 @@ The method introduction and experiments:
 ## Install
 - Clone this repo.
 
+- Install dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
+
 - Complie DownwardFast:
   ```
   cd src/pddlstream
@@ -51,5 +56,4 @@ The method introduction and experiments:
   python train.py
   ```
 
-## Contribution
 
